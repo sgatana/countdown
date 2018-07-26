@@ -1,14 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CountDown from './countdown'
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <CountDown />
-      </div>
-    )
-  }
-}
-
+const App = () => <CountDown />
 export default App;
